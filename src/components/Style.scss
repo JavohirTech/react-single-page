@@ -1,0 +1,16 @@
+.navbarcha{
+   ul{
+      text-align: center;
+      background-color: red;
+      li{
+         list-style: none;
+         display: inline-block;
+         padding: 20px;
+      }
+      a{
+         text-transform: uppercase;
+         color: white;
+         text-decoration: none;
+      }
+   }
+}
