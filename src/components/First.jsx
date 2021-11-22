@@ -1,10 +1,10 @@
 import React from "react";
+import FetchData from './FetchData'
 
 function First(){
    return(
       <div>
-         <h1>Bu First page</h1>
-         <p>Bu First page</p>
+         <FetchData/>
       </div>
    )
 }

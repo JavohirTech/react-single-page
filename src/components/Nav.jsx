@@ -1,16 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import './Style.scss'
+import './Style.css'
 
 const Nav = ()=>{
    return(
       <div className="navbarcha">
          <ul>
            <li>
-              <Link to="/">Home</Link>
+              <Link to="/">Insert</Link>
             </li>
             <li>
-              <Link to="/bir">First</Link>
+              <Link to="/bir">Fetch</Link>
             </li>
             <li>
                <Link to="/ikki">Second</Link>
